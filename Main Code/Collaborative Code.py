@@ -21,7 +21,9 @@ def draw_eye_bags():
       # under eyes
     arcade.draw_circle_filled(x y z arcade.csscolor.LIGHTBROWN)
     arcade.draw_circle_filled(x y z arcade.csscolor.LIGHTBROWN)
-  
+def draw_ears():
+    arcade.draw_triangle_filled(a b c d e f arcade.csscolor.BEIGE)
+    arcade.draw_triangle_filled(a b c d e f  arcade.csscolor.BEIGE)
  
 
 # drawing ground
