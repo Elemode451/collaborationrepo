@@ -3,6 +3,21 @@ import arcade
 arcade.open_window(800,800, "Cool Window that Does Stuff")
 arcade.start_render()
 arcade.set_background_color(arcade.csscolor.ORCHID)
+def dog_body():
+   #draw the dogs legs
+  arcade.draw_polygon_filled(x y x y super cool xy arcade.csscolor.BEIGE)
+  arcade.draw_polygon_filled(x y x y super cool xy arcade.csscolor.BEIGE)
+  arcade.draw_polygon_filled(x y x y super cool xy arcade.csscolor.BEIGE)
+  arcade.draw_polygon_filled(x y x y super cool xy arcade.csscolor.BEIGE)
+  #draw dog tail
+  arcade.draw_polygon_filled(x y x y super cool xy arcade.csscolor.BROWN)
+  #draw the dog's body
+  arcade.draw_rectangle_filled(x,y, blah blah arcade.csscolor.BEIGE)
+  
+def draw_face():
+  
+ 
+
 # drawing ground
 arcade.draw_lrtb_rectangle_filled(0, 800, 225, 0, arcade.csscolor.PURPLE)
 
