@@ -14,7 +14,13 @@ def dog_body():
   #draw the dog's body
   arcade.draw_rectangle_filled(x,y, blah blah arcade.csscolor.BEIGE)
   
-def draw_face():
+def draw_eyes():
+    arcade.draw_circle_filled(x y z arcade.csscolor.BLACK)
+    arcade.draw_circle_filled(x y z arcade.csscolor.BLACK)
+def draw_eye_bags():
+      # under eyes
+    arcade.draw_circle_filled(x y z arcade.csscolor.LIGHTBROWN)
+    arcade.draw_circle_filled(x y z arcade.csscolor.LIGHTBROWN)
   
  
 
