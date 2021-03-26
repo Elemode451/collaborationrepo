@@ -10,9 +10,10 @@ def dog_body():
   arcade.draw_polygon_filled(x y x y super cool xy arcade.csscolor.BEIGE)
   arcade.draw_polygon_filled(x y x y super cool xy arcade.csscolor.BEIGE)
   #draw dog tail
-  arcade.draw_polygon_filled(x y x y super cool xy arcade.csscolor.BROWN)
-  #draw the dog's body
-  arcade.draw_rectangle_filled(x,y, blah blah arcade.csscolor.BEIGE)
+  arcade.draw_triangle_filled(250,400,250,430,180,450, arcade.csscolor.BEIGE)
+
+ #draw the dog's body
+  arcade.draw_rectangle_filled(400, 400, 300, 150, arcade.csscolor.SIENNA)
   
 def draw_eyes():
     arcade.draw_circle_filled(x y z arcade.csscolor.BLACK)
