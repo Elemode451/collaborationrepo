@@ -24,8 +24,8 @@ def draw_eye_bags():
 def draw_ears():
     arcade.draw_triangle_filled(a b c d e f arcade.csscolor.BEIGE)
     arcade.draw_triangle_filled(a b c d e f  arcade.csscolor.BEIGE)
- 
-
+ def draw_mouth():
+   arcade.draw_arc_filled(400, 380, 50, -75, arcade.csscolor.MEDIUM_VIOLET_RED, 0, 180)
 # drawing ground
 arcade.draw_lrtb_rectangle_filled(0, 800, 225, 0, arcade.csscolor.PURPLE)
 
